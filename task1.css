@@ -1,0 +1,132 @@
+#btn2{
+    display: none;
+    /* width: 100px; */
+}
+#btn3{
+    display: none;
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+}
+.div1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+}
+.div2{
+    
+    height: 100px;
+    width: 50%;
+    padding: 30px;
+    /* border: solid gray 1px; */
+    border-radius: 2px;
+}
+.div3{
+    background-color: rgb(22, 22, 63);
+    /* font-size: 30px; */
+    /* font-weight: 500; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: start; */
+    /* padding: 2px; */
+    /* color: azure; */
+    height: 400px;
+    align-items: center;
+    width: 900px; 
+    justify-content: center;
+}
+.word{
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(16, 173, 234);
+}
+.text1{
+    color: azure;
+}
+.text2::before{
+    content: "";
+    position: absolute;
+    padding-left: 5px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(22, 22, 63);
+    border-left: 2px solid rgb(16, 173, 234);
+    animation: animate 4s steps(12) infinite;
+}
+
+@keyframes animate{
+    40%,60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+.div5{
+    /* background-image:linear-gradient(to left rgb(0, 191, 255) rgb(76, 124, 144) black) ; */
+    background-color: lightblue;
+    height: 600px;
+    width: 300px;
+    /* justify-items: center; */
+    justify-content: center;
+    margin: auto;
+    /* padding-left: 10px; */
+    font-family:cursive;
+    border: 1px darkgrey double;
+    border-radius: 10px;
+    box-shadow: rgb(197, 191, 191) 5px 5px 5px 5px;
+}
+.div6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img1{
+    border-radius: 10px;
+}
+.img2{
+    display: none;
+    border-radius: 10px;
+}
+.img3{
+    display: none;
+    border-radius: 10px;
+}
+.svg{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 15px;
+    align-items: center;
+}
+.para{
+    padding-left: 10px;
+    text-indent: 10px;
+    justify-content: center;
+    /* align-items: start; */
+}
+.color{
+    height: 30px;
+    width: 30px;
+    border: double black 1px;
+    border-radius: 50%;
+}
+.coloricon{
+    padding-left: 10px;
+    align-content: center;
+}
+.shoes1{
+    background-color: black;
+}
+.shoes2{
+    background-color: rgba(241, 64, 11, 0.992);
+}
+.shoes3{
+    background-color: rgb(74, 167, 234);
+}
+.cart{
+    margin: 10%;
+}
